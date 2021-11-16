@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31829.152
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chinook.Web", "Chinook.Web\Chinook.Web.csproj", "{499EE16F-516C-40E8-8A85-EC97C79FFDE9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chinook.Core", "Chinook.Core\Chinook.Core.csproj", "{9B015E76-9A93-4CC8-8CF3-5A2BA5BD1A9F}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Chinook.TestData", "Chinook.TestData\Chinook.TestData.shproj", "{A26A51ED-5AEB-404F-92AB-E98996260EEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chinook.Web.Tests", "Chinook.Web.Tests\Chinook.Web.Tests.csproj", "{E3FDFADA-0154-40A8-988D-C4AD02C82C53}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Chinook.TestData\Chinook.TestData.projitems*{a26a51ed-5aeb-404f-92ab-e98996260eee}*SharedItemsImports = 13
+		Chinook.TestData\Chinook.TestData.projitems*{e3fdfada-0154-40a8-988d-c4ad02c82c53}*SharedItemsImports = 5
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{499EE16F-516C-40E8-8A85-EC97C79FFDE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{499EE16F-516C-40E8-8A85-EC97C79FFDE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{499EE16F-516C-40E8-8A85-EC97C79FFDE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{499EE16F-516C-40E8-8A85-EC97C79FFDE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B015E76-9A93-4CC8-8CF3-5A2BA5BD1A9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B015E76-9A93-4CC8-8CF3-5A2BA5BD1A9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B015E76-9A93-4CC8-8CF3-5A2BA5BD1A9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B015E76-9A93-4CC8-8CF3-5A2BA5BD1A9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3FDFADA-0154-40A8-988D-C4AD02C82C53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3FDFADA-0154-40A8-988D-C4AD02C82C53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3FDFADA-0154-40A8-988D-C4AD02C82C53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3FDFADA-0154-40A8-988D-C4AD02C82C53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BCCB7D12-800B-4A3D-A2CA-81457F771490}
+	EndGlobalSection
+EndGlobal
