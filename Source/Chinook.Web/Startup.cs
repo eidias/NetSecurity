@@ -37,7 +37,9 @@ namespace Chinook.Web
             services.AddHealthChecks()
                 .AddDbContextCheck<ChinookContext>();
 
+            services.AddRazorPages();
             services.AddControllers();
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Chinook.Web", Version = "v1" });
@@ -56,6 +58,7 @@ namespace Chinook.Web
             }
 
             app.UseHttpsRedirection();
+            app.UseStaticFiles();
 
             app.UseRouting();
 
@@ -64,6 +67,7 @@ namespace Chinook.Web
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapHealthChecks("/health");
+                endpoints.MapRazorPages();
                 endpoints.MapControllers();
             });
         }

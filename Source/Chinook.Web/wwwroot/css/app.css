@@ -1,0 +1,19 @@
+/*Global resets*/
+body {
+    margin: 0;
+}
+
+a {
+    /*Anchors do not natively inherit colors*/
+    color: inherit;
+}
+
+table {
+    /*Allows to define borders on rows*/
+    border-collapse: collapse;
+}
+
+input:focus, select:focus, textarea:focus, button:focus {
+    /*Outlines can look strange in certain browsers*/
+    outline: none;
+}
