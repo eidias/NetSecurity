@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Login</title>
+    <link rel="icon" type="image/png" href="media/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="css/app.css" />
+</head>
+<body>
+    <form method="post" action="/authentication">
+        <label>
+            <span>Email</span>
+            <input type="text" name="username" required />
+        </label>
+        <label>
+            <span>Password</span>
+            <input type="password" name="password" required />
+        </label>
+        <label>
+            <span></span>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </label>
+    </form>
+</body>
+</html>

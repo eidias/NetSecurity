@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chinook.Core", "Chinook.Cor
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Chinook.TestData", "Chinook.TestData\Chinook.TestData.shproj", "{A26A51ED-5AEB-404F-92AB-E98996260EEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chinook.Web.Tests", "Chinook.Web.Tests\Chinook.Web.Tests.csproj", "{E3FDFADA-0154-40A8-988D-C4AD02C82C53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chinook.Web.Tests", "Chinook.Web.Tests\Chinook.Web.Tests.csproj", "{E3FDFADA-0154-40A8-988D-C4AD02C82C53}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution

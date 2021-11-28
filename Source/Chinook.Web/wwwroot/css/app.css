@@ -17,3 +17,24 @@ input:focus, select:focus, textarea:focus, button:focus {
     /*Outlines can look strange in certain browsers*/
     outline: none;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    height: 2em;
+}
+
+form label span:not(:empty)::after {
+    content: ':';
+}
+
+form label span {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 10vw;
+    text-align: right;
+    padding-right: 1em;
+}

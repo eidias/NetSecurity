@@ -54,6 +54,7 @@ namespace Chinook.Web
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
+                app.UseBrowserLink();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Chinook.Web v1"));
             }
 
