@@ -1,0 +1,15 @@
+﻿@page
+@model Chinook.Web.Pages.AdminModel
+@{
+}
+
+<ul>
+    @foreach (var loadedAssembly in Chinook.Web.Program.LoadedAssemblies)
+    {
+    <li>
+        <span>@loadedAssembly.Item1.FullName</span>
+        <span> - </span>
+        <span>@loadedAssembly.Item2.Subject</span>
+    </li>
+    }
+</ul>

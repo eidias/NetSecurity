@@ -8,14 +8,16 @@ using System.Diagnostics;
 using System.Linq;
 using System.Reflection;
 using System.Runtime.InteropServices;
+using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
 
 namespace Chinook.Web
 {
     public class Program
     {
-        public static Guid Id { get; }
-        public static FileVersionInfo VersionInfo { get; }
+        public static readonly Guid Id;
+        public static readonly FileVersionInfo VersionInfo;
+        public static readonly List<(Assembly, X509Certificate)> LoadedAssemblies = new();
 
         static Program()
         {
@@ -29,6 +31,13 @@ namespace Chinook.Web
                 //The compiler ensures that only valid Guids are used in the attribute.
                 Id = new Guid(guidAttribute.ConstructorArguments[0].Value as string);
             }
+
+            AppDomain.CurrentDomain.AssemblyLoad += (_, args) =>
+            {
+                var certificate = X509Certificate.CreateFromSignedFile(args.LoadedAssembly.Location);
+                LoadedAssemblies.Add((args.LoadedAssembly, certificate));
+            };
+
 
             VersionInfo = FileVersionInfo.GetVersionInfo(assembly.Location);
         }
