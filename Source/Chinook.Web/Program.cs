@@ -1,3 +1,4 @@
+using Chinook.Core.Helpers;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
@@ -8,7 +9,6 @@ using System.Diagnostics;
 using System.Linq;
 using System.Reflection;
 using System.Runtime.InteropServices;
-using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
 
 namespace Chinook.Web
@@ -16,8 +16,7 @@ namespace Chinook.Web
     public class Program
     {
         public static readonly Guid Id;
-        public static readonly FileVersionInfo VersionInfo;
-        public static readonly List<(Assembly, X509Certificate)> LoadedAssemblies = new();
+        public static readonly List<LoadedAssembly> LoadedAssemblies;
 
         static Program()
         {
@@ -32,14 +31,14 @@ namespace Chinook.Web
                 Id = new Guid(guidAttribute.ConstructorArguments[0].Value as string);
             }
 
+            var entryAssembly = new LoadedAssembly(assembly, loadTime: DateTime.Now, isEntryAssembly: true);
+            LoadedAssemblies = new List<LoadedAssembly> { entryAssembly };
+
             AppDomain.CurrentDomain.AssemblyLoad += (_, args) =>
             {
-                var certificate = X509Certificate.CreateFromSignedFile(args.LoadedAssembly.Location);
-                LoadedAssemblies.Add((args.LoadedAssembly, certificate));
+                var loadedAssembly = new LoadedAssembly(args.LoadedAssembly, loadTime: DateTime.Now);
+                LoadedAssemblies.Add(loadedAssembly);
             };
-
-
-            VersionInfo = FileVersionInfo.GetVersionInfo(assembly.Location);
         }
 
         public static void Main(string[] args)
