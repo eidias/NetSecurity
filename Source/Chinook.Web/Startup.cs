@@ -2,6 +2,8 @@ using Chinook.Core.DataAccess;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.Data.Sqlite;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -25,8 +27,10 @@ namespace Chinook.Web
         public void ConfigureServices(IServiceCollection services)
         {
             //Consider using the DbContext factory in cases where lifetime is not scoped.
+            var sqliteConnection = new SqliteConnection(@$"datasource='{AppContext.BaseDirectory}\Databases\chinook.sqlite'");
             services.AddDbContext<ChinookContext>(options =>
             {
+                options.UseSqlite(sqliteConnection);
 #if DEBUG
                 //[DEMO] Combine this with custom compilation symbols. Always consider potential build issues for non-compilation paths.
                 options.EnableSensitiveDataLogging();

@@ -23,4 +23,6 @@
     <ProjectReference Include="..\Chinook.Core\Chinook.Core.csproj" />
   </ItemGroup>
 
+  <Import Project="..\Chinook.TestData\Chinook.TestData.projitems" Label="Shared" />
+
 </Project>

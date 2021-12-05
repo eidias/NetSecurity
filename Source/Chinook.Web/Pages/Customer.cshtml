@@ -1,0 +1,27 @@
+﻿@page
+@model Chinook.Web.Pages.CustomerModel
+@inject Chinook.Core.DataAccess.ChinookContext chinookContext
+@{
+}
+
+<table>
+    <thead>
+        <tr>
+            <th>Company</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var customer in chinookContext.Customers.Take(20))
+        {
+        <tr>
+            <td>@customer.Company</td>
+            <td>@customer.FirstName @customer.LastName</td>
+            <td>@customer.Email</td>
+            <td>@customer.Phone</td>
+        </tr>
+        }
+    </tbody>
+</table>

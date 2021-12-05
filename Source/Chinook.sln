@@ -13,6 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chinook.Web.Tests", "Chinoo
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Chinook.TestData\Chinook.TestData.projitems*{499ee16f-516c-40e8-8a85-ec97c79ffde9}*SharedItemsImports = 5
 		Chinook.TestData\Chinook.TestData.projitems*{a26a51ed-5aeb-404f-92ab-e98996260eee}*SharedItemsImports = 13
 		Chinook.TestData\Chinook.TestData.projitems*{e3fdfada-0154-40a8-988d-c4ad02c82c53}*SharedItemsImports = 5
 	EndGlobalSection
