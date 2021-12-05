@@ -6,7 +6,7 @@
 
 - [SANS Internet Storm Center](https://isc.sans.edu) - Diaries, DShield Honeypot for Raspberry PI
 - [ABUSE.ch](https://abuse.ch)
-- [KrebsOnSecurity](https://krebsonsecurity.com)
+- [KrebsOnSecurity](https://krebsonsecurity.com) by Brain Krebs (@briankrebs)
 - [PhishTank](https://phishtank.org) - OpenDNS offshoot since 2006
 - [Penetration Testing Lab](https://pentestlab.blog)
 - [SwissCyberSecurity.net](https://www.swisscybersecurity.net) by Netzwoche
@@ -21,6 +21,7 @@
 - [Fiddler by Telerik](https://www.telerik.com/fiddler)
 - [SecurityHeaders.com](securityheaders.com)
 - [ClamAV](https://www.clamav.net) by Cisco Talos
+- [sonarlint](https://www.sonarlint.org)
 
 ## Libraries/Packages
 
@@ -31,6 +32,7 @@
 
 - [Open Source Security Foundation ](https://openssf.org) - Part of the Linux Foundation
 - [sigstore](https://sigstore.dev) - Software supply chain security
+- [YES WE HACK](https://yeswehack.com)
 
 ## Reference
 
@@ -39,3 +41,6 @@
 - [Trojan Source](https://github.com/nickboucher/trojan-source)
 - [Confusables Unicode Characters](https://util.unicode.org/UnicodeJsps/confusables.jsp)
 - [IDN phishing emails](https://arstechnica.com/information-technology/2021/09/microsoft-outlook-shows-real-persons-contact-info-for-idn-phishing-emails) by arsTECHNICA
+- [Vulnerability Scanning Tools](https://owasp.org/www-community/Vulnerability_Scanning_Tools)
+- [SonarSource](https://rules.sonarsource.com)
+- [SunBurst: the next level of stealth](https://blog.reversinglabs.com/blog/sunburst-the-next-level-of-stealth)
