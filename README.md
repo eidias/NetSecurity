@@ -30,6 +30,7 @@
 
 - [NWebsec.AspNetCore.Middleware](https://www.nuget.org/packages/NWebsec.AspNetCore.Middleware) by André N. Klingsheim
 - [NetEscapades.AspNetCore.SecurityHeaders](https://www.nuget.org/packages/NetEscapades.AspNetCore.SecurityHeaders) by Andrew Lock
+- [Meziantou.Analyzer](https://github.com/meziantou/Meziantou.Analyzer) by Gérald Barré
 
 ## Initiatives
 
@@ -37,6 +38,7 @@
 - [sigstore](https://sigstore.dev) - Software supply chain security
 - [YES WE HACK](https://yeswehack.com)
 - [have i been pwned?](https://haveibeenpwned.com) by Troy Hunt
+- [Versions of .NET](https://versionsof.net)
 
 ## Reference
 
@@ -53,4 +55,5 @@
 - [Adding security headers to ASP.NET Core](https://github.com/andrewlock/NetEscapades.AspNetCore.SecurityHeaders) by Andrew Lock
 - [.NET Source Browser](https://source.dot.net)
 - [An Introduction to Cipher Suites](https://www.keyfactor.com/blog/cipher-suites-explained)
-
+- [Cloudflare Encryption](https://www.fastcompany.com/90137157/the-hardest-working-office-design-in-america-encrypts-your-data-with-lava-lamps)
+- [XML vulnerabilities in .NET](https://www.meziantou.net/how-to-protect-against-xml-vulnerabilities-in-dotnet.htm)
