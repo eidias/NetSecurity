@@ -24,6 +24,7 @@
 - [ipstack](https://ipstack.com) - Geolocation services
 - [MaxMind](https://www.maxmind.com)
 - [Security Headers](https://securityheaders.com)
+- [Qualys SSL Server Test](https://www.ssllabs.com/ssltest)
 
 ## Libraries/Packages
 
@@ -50,4 +51,6 @@
 - [Sicherheitsprüfung meineimpfungen.ch](https://mezdanak.de/wp-content/uploads/2021/03/2021_03_21_Report_meineimpfungen-v1.1.pdf)
 - [C# compiler options for security](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-options/security)
 - [Adding security headers to ASP.NET Core](https://github.com/andrewlock/NetEscapades.AspNetCore.SecurityHeaders) by Andrew Lock
+- [.NET Source Browser](https://source.dot.net)
+- [An Introduction to Cipher Suites](https://www.keyfactor.com/blog/cipher-suites-explained)
 
