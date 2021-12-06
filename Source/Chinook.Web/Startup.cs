@@ -41,6 +41,15 @@ namespace Chinook.Web
             services.AddHealthChecks()
                 .AddDbContextCheck<ChinookContext>();
 
+            services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(builder => {
+                    builder.AllowAnyOrigin();
+                    builder.AllowAnyMethod();
+                    builder.AllowAnyHeader();
+                });
+            });
+
             services.AddRazorPages();
             services.AddControllers();
 
@@ -67,6 +76,8 @@ namespace Chinook.Web
             app.UseStaticFiles();
 
             app.UseRouting();
+
+            app.UseCors();
 
             app.UseAuthorization();
 
