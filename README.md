@@ -30,6 +30,8 @@
 - [The Diceware Passphrase Home Page](https://theworld.com/~reinhold/diceware.html)
 - [Playwright](https://playwright.dev)
 - [VirusTotal](https://www.virustotal.com) by Google
+- [jwt.ms](https://jwt.ms) - JWT dccoder
+- [JWT.IO](https://jwt.io) - Decode, verify and generate JWT
 
 ## Libraries/Packages
 
@@ -37,6 +39,7 @@
 - [NetEscapades.AspNetCore.SecurityHeaders](https://www.nuget.org/packages/NetEscapades.AspNetCore.SecurityHeaders) by Andrew Lock
 - [Meziantou.Analyzer](https://github.com/meziantou/Meziantou.Analyzer) by Gérald Barré
 - [Balea](https://github.com/Xabaril/Balea) - Authorization framework
+- [SonarAnalyzer.CSharp](https://www.nuget.org/packages/SonarAnalyzer.CSharp)
 
 ## Initiatives
 
@@ -45,6 +48,7 @@
 - [YES WE HACK](https://yeswehack.com)
 - [have i been pwned?](https://haveibeenpwned.com) by Troy Hunt
 - [Versions of .NET](https://versionsof.net)
+- [SonarSource](https://rules.sonarsource.com)
 
 ## Reference
 
@@ -64,3 +68,5 @@
 - [An Introduction to Cipher Suites](https://www.keyfactor.com/blog/cipher-suites-explained)
 - [Cloudflare Encryption](https://www.fastcompany.com/90137157/the-hardest-working-office-design-in-america-encrypts-your-data-with-lava-lamps)
 - [XML vulnerabilities in .NET](https://www.meziantou.net/how-to-protect-against-xml-vulnerabilities-in-dotnet.htm)
+- [WebAuthn](https://webauthn.io) - Demo of the WebAuthn specification
+- [An Illustrated Guide to OAuth and OpenID Connect](https://developer.okta.com/blog/2019/10/21/illustrated-guide-to-oauth-and-oidc)
