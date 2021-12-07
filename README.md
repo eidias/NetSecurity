@@ -36,6 +36,7 @@
 - [NWebsec.AspNetCore.Middleware](https://www.nuget.org/packages/NWebsec.AspNetCore.Middleware) by André N. Klingsheim
 - [NetEscapades.AspNetCore.SecurityHeaders](https://www.nuget.org/packages/NetEscapades.AspNetCore.SecurityHeaders) by Andrew Lock
 - [Meziantou.Analyzer](https://github.com/meziantou/Meziantou.Analyzer) by Gérald Barré
+- [Balea](https://github.com/Xabaril/Balea) - Authorization framework
 
 ## Initiatives
 
