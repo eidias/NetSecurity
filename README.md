@@ -10,6 +10,7 @@
 - [PhishTank](https://phishtank.org) - OpenDNS offshoot since 2006
 - [Penetration Testing Lab](https://pentestlab.blog)
 - [SwissCyberSecurity.net](https://www.swisscybersecurity.net) by Netzwoche
+- [Awesome .NET Security](https://github.com/guardrailsio/awesome-dotnet-security)
 
 ## Tools
 
@@ -25,6 +26,10 @@
 - [MaxMind](https://www.maxmind.com)
 - [Security Headers](https://securityheaders.com)
 - [Qualys SSL Server Test](https://www.ssllabs.com/ssltest)
+- [Prometheus](https://prometheus.io) - Open-source monitoring solution
+- [The Diceware Passphrase Home Page](https://theworld.com/~reinhold/diceware.html)
+- [Playwright](https://playwright.dev)
+- [VirusTotal](https://www.virustotal.com) by Google
 
 ## Libraries/Packages
 
@@ -47,6 +52,7 @@
 - [Trojan Source](https://github.com/nickboucher/trojan-source)
 - [Confusables Unicode Characters](https://util.unicode.org/UnicodeJsps/confusables.jsp)
 - [IDN phishing emails](https://arstechnica.com/information-technology/2021/09/microsoft-outlook-shows-real-persons-contact-info-for-idn-phishing-emails) by arsTECHNICA
+- [Quantum computers and the Bitcoin blockchain](https://www2.deloitte.com/nl/nl/pages/innovatie/artikelen/quantum-computers-and-the-bitcoin-blockchain.html)
 - [Vulnerability Scanning Tools](https://owasp.org/www-community/Vulnerability_Scanning_Tools)
 - [SonarSource](https://rules.sonarsource.com)
 - [SunBurst: the next level of stealth](https://blog.reversinglabs.com/blog/sunburst-the-next-level-of-stealth)
