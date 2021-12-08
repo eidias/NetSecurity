@@ -45,7 +45,7 @@
 
 - [Open Source Security Foundation ](https://openssf.org) - Part of the Linux Foundation
 - [sigstore](https://sigstore.dev) - Software supply chain security
-- [YES WE HACK](https://yeswehack.com)
+- [Post bug bounty program](https://yeswehack.com/programs/swiss-post)
 - [have i been pwned?](https://haveibeenpwned.com) by Troy Hunt
 - [Versions of .NET](https://versionsof.net)
 - [SonarSource](https://rules.sonarsource.com)
@@ -70,3 +70,4 @@
 - [XML vulnerabilities in .NET](https://www.meziantou.net/how-to-protect-against-xml-vulnerabilities-in-dotnet.htm)
 - [WebAuthn](https://webauthn.io) - Demo of the WebAuthn specification
 - [An Illustrated Guide to OAuth and OpenID Connect](https://developer.okta.com/blog/2019/10/21/illustrated-guide-to-oauth-and-oidc)
+- [Internationalisierter Domainname](https://de.wikipedia.org/wiki/Internationalisierter_Domainname)
